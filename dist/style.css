@@ -1,0 +1,157 @@
+/* Menu */
+.menu{
+    background: #446cb2;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    opacity: .5;
+}
+.menulista{
+    position: absolute;
+    top: 12px;
+    padding: 0 100px;
+}
+.lista2{
+    right: 0;
+}
+li {
+    display: inline;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+a:hover{
+    color: #dadada;
+}
+li:active:nth-of-type(1), li:target:nth-of-type(1){
+    background: #314d7f;
+}
+
+
+/* Menu
+
+.menu{
+    background: coral;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    opacity: .5;
+} */
+
+/* div, div{
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 120px;
+    height: 120px;
+}
+.container{
+    background: black;
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    z-index: 0;
+}
+
+.contenido_hijo_1{
+    background: red;
+    position: absolute;
+    bottom: 0;
+}
+.contenido_hijo_2{
+    background: orange;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: 180px auto;
+}
+.contenido_hijo_3{
+    background: violet;
+    position: absolute;
+    right: 0;
+}
+.contenido_hijo_4{
+    background: blue;
+    position: absolute;
+}
+.contenido_hijo_5{
+    background: greenyellow;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.container2{
+    background: black;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    position: relative;
+    /* left: -10px;/*-12vw*/
+    /* top: 0;
+    right: 0;
+    bottom: 0; */
+    /* margin: 0 auto;
+} */
+.contenido2_hijo_1{
+    background: cadetblue;
+    text-align: center;
+}
+.container2{
+    background: black;
+    width: 120px;
+    height: 120px;
+    position: relative;
+    left: -12vw;
+    margin: 0 auto; 
+    
+}
+.contenido2_hijo_1{
+    
+    background: cadetblue;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    z-index: -1;
+}   
+/* div div{
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 120px;
+    height: 120px;
+}
+.container{
+    background: black;
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.contenido_hijo_1{
+    background: red;
+}
+.contenido_hijo_2{
+    background: orange;
+    
+
+}
+.contenido_hijo_3{
+    background: violet;
+    position: absolute;
+    left:30px;
+    top: 0 auto;
+    opacity: .9;
+    z-index: -1;
+}
+.contenido_hijo_4{
+    background: blue;
+}
+.contenido_hijo_5{
+    background: greenyellow;
+} */
